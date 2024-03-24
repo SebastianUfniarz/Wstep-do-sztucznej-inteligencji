@@ -1,7 +1,7 @@
 # Wstęp-do-sztucznej-inteligencji
 
 
-### Zadanie 1
+## Zadanie 1
 
 Które z następujących zadań wymagają w Twojej opinii inteligencji od człowieka:
 
@@ -60,3 +60,91 @@ Częściowo wymaga inteligencji ludzkiej. Chociaż pewnie istnieją narzędzia k
 • kierowanie samochodem.
 
 Wymaga inteligencji ludzkiej. Pomimo postępującego rozwoju systemów wspomagających kierowcę oraz samochodów z automatycznym sterowaniem, wciąż istnieją sytuacje, które wymagają ludzkiego rozumienia i elastyczności w podejmowaniu decyzji, zwłaszcza w przypadku nieprzewidzianych zdarzeń drogowych. Dlatego kierowanie samochodem nadal pozostaje zadaniem, które w dużym stopniu wymaga ludzkiej inteligencji. Choć coraz mniej potrzebna jest ona np. w przypadku prowadzenia samochodów Tesli, to nadal te pojazdy nie są na tyle popularne, aby można było stwierdzić, że kierowanie samochodem nie wymaga inteligencji.
+
+
+
+
+## Zadanie 2
+
+Które z następujących problemów można uznać za mieszczące się w zakresie sztucznej inteligencji:
+
+• streszczanie tekstu,
+
+Można uznać za mieszczące się w zakresie sztucznej inteligencji. W obecnym stanie technologii istnieją systemy do streszczania tekstu, ale nadal nie są one doskonałe, szczególnie jeśli chodzi o zachowanie kontekstu i tonu oryginalnego tekstu w skróconej wersji. Dla mniejszych tekstów oczywiście działa to całkiem dobrze, natomiast jeśli chodzi o streszczanie np. książek czy wierszy, jest to raczej problematyczne zadanie. Dlatego, jak opisałem powyżej, nadal wymagana jest do tego ludzka inteligencja.
+
+• tłumaczenie tekstu,
+
+Można uznać za mieszczące się w zakresie sztucznej inteligencji. Obecnie istnieją zaawansowane systemy tłumaczenia. Niemniej jednak, nadal istnieją wyzwania, takie jak dokładność tłumaczenia specjalistycznego lub niestandardowego tekstu oraz zachowanie subtelnego znaczenia i kontekstu w tłumaczeniach. Technologie te stale ewoluują, i są coraz lepsze ale nadal nie doskonałe (wyżej opisałem dokłaniej).  
+
+• klasyfikacja tekstu do kategorii tematycznych,
+
+Można uznać za mieszczące się w zakresie sztucznej inteligencji. W obecnym stanie technologii są już dosyć skutecznye systemów klasyfikacji tekstu, które potrafią rozpoznawać różnorodne tematy z całkiem wysoką dokładnością. Jednakże, w bardziej złożonych sytuacjach, gdzie teksty są wieloznaczne, a kontekst wymaga głębszego zrozumienia, możliwości algorytmów mogą być mniej skuteczne.
+
+• odpowiadanie na proste pytania zadawane w języku naturalnym,
+
+Można uznać za mieszczące się w zakresie sztucznej inteligencji. W obecnym stanie technologii możliwe jest tworzenie systemów zdolnych do skutecznego odpowiadania na proste pytania, zwłaszcza gdy odpowiedzi mogą być znalezione w dostępnych źródłach tekstowych, takich jak encyklopedie, bazy danych czy internet. Niemniej jednak, istnieją wyzwania, takie jak interpretacja kontekstu, zrozumienie pytań zawierających wieloznaczność lub wymagających wnioskowania
+
+• rozwiązywanie układów równań / rozwiązywanie układów równań liniowych / symboliczne obliczanie pochodnych,
+
+Można uznać za mieszczące się w zakresie sztucznej inteligencji. Algorytmy takie jak sieci neuronowe, pewnie mogą być również wykorzystane do rozwiązania układów równań/ obliczanie pochodnych, szczególnie tych o dużych rozmiarach lub o skomplikowanych strukturach. Oczywiście, pewnie istnieją problemy, które mogą być zbyt skomplikowane lub nieodpowiednio zdefiniowane, by mogły być rozwiązane automatycznie. Problemem również może być dobranie odpowiednich metod do problemu aby wynik był sensownym ale większość problemów pewnie jest w stanie rozwiązać bez problemu.
+
+• układanie rozkładu jazdy,
+
+Można uznać za mieszczące się w zakresie sztucznej inteligencji.  W kontekście sztucznej inteligencji, rozkład jazdy może być traktowany jako problem optymalizacji, gdzie algorytmy poszukują najlepszej/najkrótszej trasy dla pojazdów w zależności od różnych czynników, takich jak odległość, czas podróży, ograniczenia czasowe czy ograniczenia zasobów.
+
+• symboliczne całkowanie,
+
+Można uznać to za zawierające się w zakresie sztucznej inteligencji. Sztuczna inteligencja może być wykorzystywana do symbolicznego całkowania za pomocą specjalnie opracowanych algorytmów. Jednakże co do efektywności i dokładności takiego podejścia, nie jestem w stanie jednoznacznie stwierdzić, ponieważ nie korzystałem z tych metod. Niemniej jednak, istnieją już metody, które pozwalają na obliczanie całek przy użyciu sztucznej inteligencji. Klasyczne metody liczenia z pewnością dają dokładne wyniki, ale jak to wygląda z wykorzystaniem sztucznej inteligencji, trudno mi jednoznacznie ocenić.
+
+• kierowanie samochodem.
+
+Można uznać to za zakres sztucznej inteligencji. Tesla jest jednym z pionierów w dziedzinie samochodów autonomicznych i wykorzystuje zaawansowane algorytmy sztucznej inteligencji do sterowania pojazdami. Samochody Tesli wyposażone są w system autopilota, który korzysta z wielu czujników, takich jak kamery, radar i czujniki ultradźwiękowe, aby zbierać dane o otoczeniu pojazdu. Te dane są następnie przetwarzane przez algorytmy uczenia maszynowego, które analizują środowisko drogowe i podejmują decyzje dotyczące kierowania pojazdem, takie jak utrzymywanie prędkości, zachowanie odpowiedniej odległości od innych pojazdów, zmiana pasa ruchu czy reakcje na sytuacje awaryjne. Podsumowując, kierowanie samochodem staje się coraz mniej potrzebną umiejętnością, ponieważ za kilka/kilkanaście lat samochody będą prowadzone automatycznie w sposób perfekcyjny, co przyczyni się do zmniejszenia liczby wypadków drogowych.
+
+
+
+## Zadanie 3
+
+Które z poniższych rodzajów komunikacyjnego zachowania człowieka mogą być obecnie skutecznie imitowane przez sztuczne systemy (odpowiednio oprogramowane maszyny):
+
+• rozmowa towarzyska,
+
+Obecnie sztuczne systemy są w stanie naśladować pewne aspekty rozmowy towarzyskiej, zwłaszcza w kontekście prostych interakcji. Istnieją zaawansowane modele takie jak GPT (Generative Pre-trained Transformer) które na podstawie danych wejściowych i kontekstu są w stanie w odpowiedni sposób odpowiedzieć. Jednakże, mimo że potrafią one produkować zdania, które wydają się naturalne w wielu przypadkach, nie posiadają one pełnego zrozumienia ani emocjonalnego kontekstu, który jest istotny jeżeli chodzi o rozmowe towarzyską.
+
+• dyskusja polityczna,
+
+Obecnie sztuczne systemy są w stanie imitować pewne aspekty dyskusji politycznej, ale ich zdolność do prowadzenia autentycznych i kompleksowych debat politycznych pozostaje ograniczona. Wymaga to bowiem zachowania bezstronności, co jest bardzo trudne do osiągnięcia w kontekście polityki, aby nie urazić opinii użytkowników. Dlatego też modele takie jak GPT często unikają zaangażowania się w takie debaty i ograniczają się do prezentacji suchych faktów bez wyrażania opinii czy poglądów co prowadzi do prowadzenia sztucznej debaty.
+
+• dyskusja naukowa,
+
+Obecnie sztuczne systemy są w stanie symulować pewne aspekty dyskusji naukowej, ale ich zdolność do prowadzenia autentycznych i głębokich debat naukowych jest ograniczona. Często nawet na tematy, które nie są związane z nauką, mają problem udzielić odpowiedzi, zwłaszcza gdy pytanie jest bardzo zaawansowane lub specyficzne. W takich sytuacjach systemy te mogą się gubić lub udzielać nieprecyzyjnych odpowiedzi. W związku z tym, osiągnięcie pełnej zdolności do prowadzenia autentycznych debat naukowych przez sztuczne systemy w obecnym stanie technologii jest trudne.
+
+• odpowiadanie na pytania klientów w telefonicznej infolinii,
+
+Sztuczna inteligencja w telefonicznych infoliniach może być bardzo pomocna w udzielaniu szybkich odpowiedzi na proste pytania klientów, takich jak godziny otwarcia czy adres firmy. Jednakże, gdy pytania stają się bardziej skomplikowane lub wymagają rozmowy z człowiekiem, sztuczna inteligencja może napotykać trudności w zapewnieniu satysfakcjonujących odpowiedzi. W takich przypadkach nadal potrzebujemy zaangażowania człowieka w postaci konsultanta.
+
+• odpowiadanie na pytania klientów w internetowej infolinii.
+
+Tak jak w przypadku telefonicznej, nie na wszystkie pytania będzie w stanie odpowiedzieć, ale jeśli byłoby to oparte na zasadzie jakiejś sieci neuronowej, to obstawiam, że byłaby w stanie. Wystarczyłoby tylko odpowiednio nauczyć tę sieć na sporej ilości danych jakie są częste pytania i jaka jest prawidłowa odpowiedź.
+
+
+
+## Zadanie 4
+
+Do zadań skorzystaj z załączonej listy Chatbotów (Chatterbotów) lub znajdź własne.
+1. Przeprowadź rozmowę z chatbotem. Spróbuj zdefiniować różnice pomiędzy
+botem udającym człowieka (przygotowywanym na test Turinga) a botem
+„asystentem, służącym”.
+2. Sprawdź dwa boty z obu z tych rodzajów na występowanie zachowań:
+a) opowiadanie żartów,
+b) przytaczanie cytatów z twoich wypowiedzi, lub znanych osób,
+c) nawiązywanie wypowiedzi do słów kluczowych,
+d) zadawanie dużej liczby pytań,
+e) powracanie do początku wypowiedzi, sekwencyjne powtarzanie,
+f) zadawanie pytań powstających z twoich wypowiedzi,
+g) odpowiadanie wymijająco, ogólnikowo,
+h) częsta zmiana tematu rozmowy,
+i) problemy z utrzymaniem wątków.
+3. Sporządź raport ze spostrzeżeń.
+4. Na podstawie powyższych obserwacji, w grupie dwóch osób spróbujcie przewidzieć zachowania dwóch rozmawiających ze sobą chatbotów (przepisując ich
+wzajemne odpowiedzi).
+5. Zdenerwuj bota :)
