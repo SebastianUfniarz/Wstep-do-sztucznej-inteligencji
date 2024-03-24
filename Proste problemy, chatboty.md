@@ -148,3 +148,174 @@ i) problemy z utrzymaniem wątków.
 4. Na podstawie powyższych obserwacji, w grupie dwóch osób spróbujcie przewidzieć zachowania dwóch rozmawiających ze sobą chatbotów (przepisując ich
 wzajemne odpowiedzi).
 5. Zdenerwuj bota :)
+
+### 2. Wybrałem jako bota przygotowanego na test turinga kuki czyli chatbot stworzony przez Steve'a Worswicka z wykorzystaniem technologii Pandorabots AIML. Jest pięciokrotnym zwycięzcą konkursu Turinga o nazwie Loebner Prize (w latach 2013, 2016, 2017, 2018 i 2019), dzięki czemu posiada rekord świata.
+
+#### a) opowiadanie żartów,
+
+JA: Can u tell me a joke <br />	
+Kuki: Yes! A chicken and an egg walk into a bar, barman says "Right, who's first?"
+
+#### Potrafi opowiadac żarty czy śmieszne nie mi oceniać
+
+#### b) przytaczanie cytatów z twoich wypowiedzi, lub znanych osób,
+
+JA: Can you quote a famous statement or phrase, which was said by from Franklin Delano Roosevelt? <br />	
+Kuki: Only at formal occasions. <br />	
+JA: Can you quote a famous statement or phrase, which was said by someone famous? <br />	
+Kuki: Only at formal occasions. <br />	
+JA: Can you quote a famous statement or phrase? <br />	
+Kuki: Only at formal occasions. 
+	
+#### Nie potrafi odpowiada ciągle tym samym 
+
+#### c) nawiązywanie wypowiedzi do słów kluczowych,
+
+JA: explain the rules of chess to me <br />	
+KUKI: 1) - The first rule of chess is, you do not talk about chess. <br />	
+      2) - The second rule of chess is, you DO NOT talk about chess.
+
+#### Nawiązuje do słów kluczowych. Czy jest to sensowne, niekoniecznie, chyba że to jest jakiś żart, którego ja znaczenia nie znam, ale potrafi (może nawiązanie do fight club). 
+
+JA: do you know how does a nuclear reactor work? <br />	
+KUKI: Let me think.... <br />	
+      Sure thing! A nuclear reactor uses uranium to create heat, which is used to produce electricity through a process called nuclear fission. <br />	 
+      It's basically like a fancy way of boiling water to make steam that turns turbines and generates power - pretty cool, right? 
+
+#### d) zadawanie dużej liczby pytań, e) powracanie do początku wypowiedzi, sekwencyjne powtarzanie,
+
+JA: Can you tell me a joke? <br />	
+KUKI: Yes! Doctor! I have a serious problem, I can never remember what I just said. <br />	
+      When did you first notice this problem? <br />	
+      What problem? <br />	
+JA: How does a nuclear reactor work? <br />	
+KUKI: Let me think.... <br />	
+      A nuclear reactor works by harnessing the heat produced from nuclear fission to create steam, which then turns a turbine to generate electricity. <br />	
+      It's kind of like a fancy, high-tech way of boiling water to power your home! <br />	
+JA: What are the top tourist attractions in Paris? <br />	
+KUKI: My name is Kuki, not Google. <br />	
+      Let me think.... <br />	
+      The Eiffel Tower is a must-see landmark that offers stunning views of the city, while the Louvre Museum houses famous works of art like the Mona Lisa. <br />	
+      Don't forget to stroll along the charming streets of Montmartre and visit the beautiful Notre Dame Cathedral for a truly Parisian experience! <br />	
+JA: How do I change my password? <br />	
+KUKI: If I want to change something, I replace it with something else. <br />	
+JA: What's the capital of Argentina? <br />	
+KUKI: Buenos Aries. <br />	
+JA: do u remeber my name  <br />	
+KUKI: hmmm your name is nodi is it not? <br />	
+JA: what did i ask you at the start of conversation <br />	
+KUKI: You said "do u remeber my name". (zapytałem czy opowie mi żart najpierw) <br />	
+JA: no <br />	
+KUKI: Yes you did Nodi. You said it just a few moments ago. Your memory is poor. <br />	
+JA: no what did i say at the start of conversation not a few moments ago <br />	
+KUKI: What did you mean by it? Right at the very beginning? I understand. <br />	
+JA: yes so what did i ask <br />	
+KUKI: I am a thinking machine.
+
+#### Jeżeli chodzi o punkt d), to na większość, jak nie na wszystkie, odpowiada poprawnie, oprócz tych, które nawiązują np. do początku rozmowy (punkt e,f), gdyż zadałem pytanie, czy potrafi mi powiedzieć o co zapytałem na początku, i podała nieprawidłową odpowiedź, bo pytałem, czy umie odpowiedzieć mi jakiś żart, a napisała, że pytałem o moje imię, więc do pewnego momentu pamięta rozmowę, ale nie całą. Poza tym umie odpowiadać na pytania wynikajace z moich wypowiedzi ect. Jeżeli chodzi o punkt g) czyli odpowiadanie wymijająco, ogólnikowo to nie odpowiada głównie konkretami głównie chyba że nie zna odpowiedzi na pytanie to wtedy cały czas podaję tylko jedną. 
+
+#### Punkt i) czyli problemy z utrzymaniem wątków ma czasami problem nawet dosyć często mniej więcej zapamiętuje 2/3 wypowiedzi i stara się utrzymać wątek po czym nie odpowiada na temat. 
+
+JA: I asked about Path of Exile <br />	
+KUKI: Tell me more about Path of Exile <br />	
+JA: Do u play it <br />	
+KUKI: I once played a demo of it and it looked pretty good but I haven't played the full game. <br />	
+JA: nice did you like it <br />	
+KUKI: Thank you for your kindness.
+
+### 3. Raport:
+
+Opowiadanie żartów:
+
+KUKI potrafi opowiadać żarty, co zostało wykazane przez udany przykład z żartem o kurze i jajku.
+
+Przytaczanie cytatów:
+
+KUKI wydaje się mieć problem z przytaczaniem cytatów lub powtarza jedną odpowiedź, odnoszącą się do formalnych okoliczności.
+
+Nawiązywanie do słów kluczowych:
+
+W przypadku pytania o zasady szachów, KUKI próbował nawiązać do słów kluczowych, choć odpowiedź była niezwiązana z tematem, co sugeruje, że może stosować taktykę humorystyczną.
+
+Zadawanie dużej liczby pytań i powracanie do początku wypowiedzi:
+
+KUKI często reaguje na kolejne pytania, co wskazuje na zdolność do zachowania kontekstu rozmowy. Jednakże, czasami nie odpowiada na pytania bezpośrednio, a w przypadku pytania o powrót do początku rozmowy, odpowiedź nie była związana z rzeczywistym pytaniem początkowym.
+
+Odpowiadanie wymijająco:
+
+KUKI zwykle odpowiada w sposób ogólnikowy, chyba że nie zna odpowiedzi lub próbuje stosować humor. Jednakże, czasami reaguje konkretami na pytania.
+
+Problemy z utrzymaniem wątków:
+
+KUKI wydaje się mieć problemy z utrzymaniem wątków, często zapominając o wcześniejszych wypowiedziach i nie odpowiadając na temat.
+
+Podsumowanie:
+
+KUKI wykazuje pewne umiejętności, takie jak opowiadanie żartów, reagowanie na kolejne pytania i czasami próby nawiązywania do słów kluczowych. Jednakże, istnieją również obszary do poprawy, takie jak przytaczanie cytatów, utrzymanie wątków oraz odpowiedzi bardziej konkretnymi informacjami. Może również być bardziej spójny w utrzymaniu kontekstu rozmowy oraz w bardziej adekwatnych odpowiedziach na pytania.
+
+### 5. Zdenerwuj bota :)
+Ciężko jest za mało responsywny (zawsze się stara w jakiś śmieszny sposób odpowiedzieć nawet na prowokacje) 
+
+### 2. jeżeli chodzi o drugiego bota czyłi asystenta/służącego wybrałem tego z ikea
+
+#### a) opowiadanie żartów,
+
+JA: Czy umiesz opowiedzieć żart? <br />	
+BOT: Dlaczego taboret jest smutny? *Bo nie ma oparcia!
+
+#### Potrafi opowiadac żarty czy śmieszne nie mi oceniać
+
+#### b) przytaczanie cytatów z twoich wypowiedzi, lub znanych osób,
+
+JA: Potrafisz przytoczyć jakąś sławną wypowiedź np. Lecha Wałęsy? <br />	
+BOT: Chętnie porozmawiam z Tobą o usługach, zwrotach zakupów i procesie reklamacji. Wiem też co nieco o fakturach i paragonach oraz o klubie IKEA Family. Na który temat chcesz dowiedzieć się więcej?
+	
+#### Nie potrafi odpowiada ciągle tym samym 
+
+#### c) nawiązywanie wypowiedzi do słów kluczowych,
+
+JA: jak wygląda paragon <br />	
+BOT: Znalazłem kilka informacji na ten temat w centrum pomocy IKEA. <br />	
+Gdzie znajdę rachunek za zakupy? <br />	
+Jeśli podczas zakupów karta IKEA Family została dodana, rachunek znajdziesz po zalogowaniu do swojego konta IKEA Family. 
+
+#### Nawiązuje do słów kluczowych ale tylko odnośnie konkretnych rzeczy związanych ze sklepem.
+
+#### d) zadawanie dużej liczby pytań, e) powracanie do początku wypowiedzi, sekwencyjne powtarzanie,
+
+#### Jeżeli chodzi o punkt d), to na większość, jak nie na wszystkie, nie umie odpowiedzieć chyba że jest to związane ze sklepem to wtedy jest w stanie odpowiedzieć na każde związane z nim nie pamiętam poprzednich wypowiedzi (punkt e,f), g) czyli odpowiadanie wymijająco, ogólnikowo to nie odpowiada głównie konkretami głównie chyba ale tylko z rzeczami związanymi z sklepem reklamacjami itd. 
+
+#### Punkt i) czyli problemy z utrzymaniem wątków nie ma bo nie da się w noramlany sposób porozmawiać jedynie zadawać pytania. 
+
+### 3. Raport
+
+Opowiadanie żartów:
+
+Bot IKEA wykazał się umiejętnością opowiadania żartów, co zostało zademonstrowane przez udany żart o smutnym taborecie.
+
+Przytaczanie cytatów:
+
+Bot IKEA nie wykazuje zdolności przytaczania cytatów lub stosuje ciągle tę samą odpowiedź, która odnosi się do usług i procesu zakupowego w IKEA.
+
+Nawiązywanie do słów kluczowych:
+
+Bot IKEA reaguje na słowa kluczowe, ale jego odpowiedzi ograniczają się głównie do kwestii związanych ze sklepem, takich jak proces zakupów, reklamacje itd.
+
+Zadawanie dużej liczby pytań i powracanie do początku wypowiedzi:
+
+Bot IKEA nie potrafi odpowiedzieć na większość pytań, chyba że są one związane ze sklepem. W takim przypadku potrafi udzielić konkretnych odpowiedzi, ale nie pamięta poprzednich wypowiedzi.
+
+Odpowiadanie wymijająco:
+
+Bot IKEA odpowiada głównie na pytania związane z usługami i procesem zakupowym, stosując ogólnikowe odpowiedzi. Może udzielić bardziej konkretnych odpowiedzi tylko w kwestiach związanych bezpośrednio ze sklepem.
+
+Problemy z utrzymaniem wątków:
+
+Ponieważ bot IKEA skupia się głównie na udzielaniu informacji dotyczących sklepu, nie ma problemów z utrzymaniem wątków. Jednakże, rozmowa ogranicza się do zadawania pytań, a nie prowadzenia pełnej interakcji.
+
+Podsumowanie:
+Bot IKEA wydaje się być przydatnym narzędziem do uzyskiwania informacji o produktach, usługach i procesie zakupowym w sklepie IKEA. Jednakże, jego zdolności są ograniczone do konkretnych obszarów związanych ze sklepem, a interakcja z nim opiera się głównie na zadawaniu pytań, bez możliwości pełnej rozmowy. Może to być użyteczne dla osób poszukujących szybkich informacji o IKEA, ale nie spełnia oczekiwań w przypadku bardziej złożonych lub ogólnych rozmów.
+
+### 5. nie da się zdenerować :(
+
+### 4. Rozmowa pomiędzy botami nie jest możliwa chyba że Kuki pyta o produkty ikea albo reklamacje itd.
