@@ -24,4 +24,80 @@ oraz reguły kobieta;
 - definiując regułę matka możemy korzystać wyłącznie z predykatów osoba, mezczyzna, rodzic
 oraz reguł kobieta, ojciec;
 itd.
+--------------------------------------------------------------------------------------------
+kobieta(X) :- 
+    osoba(X), 
+    \+ mezczyzna(X).
 
+ojciec(X, Y) :- 
+    mezczyzna(X), 
+    rodzic(X, Y).
+
+matka(X, Y) :-
+    kobieta(X),
+    rodzic(X, Y).
+
+corka(X, Y) :- 
+    kobieta(X), 
+    matka(Y, X).
+
+brat_rodzony(X, Y) :- 
+    mezczyzna(X),
+    matka(M, X), 
+    matka(M, Y), 
+    X \= Y.
+
+brat_przyrodni(X, Y) :-
+   mezczyzna(X), <br />	
+   ( <br />	
+       (   % Jeśli X ma wspólnego ojca i różne matki <br />	
+           ojciec(Ojciec, X), ojciec(Ojciec, Y), <br />	
+           matka(MatkaX, X), matka(MatkaY, Y), <br />	
+           X \= Y, MatkaX \= MatkaY <br />	
+       ); <br />	
+       (   % Jeśli X ma wspólną matkę i różnych ojców <br />	
+           matka(Matka, X), matka(Matka, Y), <br />	
+           ojciec(OjciecX, X), ojciec(OjciecY, Y), <br />	 
+           X \= Y, OjciecX \= OjciecY <br />	
+       ) <br />	
+   ).
+   
+kuzyn(X, Y) :-
+    rodzic(RodzicX, X),
+    rodzic(RodzicY, Y),
+    ((brat_rodzony(RodzicX, RodzicY), X \= Y);
+    (brat_rodzony(RodzicY, RodzicX), X \= Y)).
+
+dziadek_od_strony_ojca(X, Y) :-
+    mezczyzna(X),
+    rodzic(Ojciec, Y),
+    rodzic(X, Ojciec),
+    mezczyzna(Ojciec).
+
+dziadek_od_strony_matki(X, Y) :-
+    mezczyzna(X),
+    rodzic(Matka, Y),
+    rodzic(X, Matka),
+    kobieta(Matka).
+
+dziadek(X, Y) :-
+    dziadek_od_strony_ojca(X, Y);
+    dziadek_od_strony_matki(X, Y).
+
+babcia(X, Y) :-
+    rodzic(RodzicY, Y),
+    matka(X, RodzicY).
+
+wnuczka(X, Y) :-
+    kobieta(Y),
+    rodzic(X, RodzicX),
+    rodzic(RodzicX, Y).
+
+przodek_do2pokolenia_wstecz(X, Y) :-
+    dziadek(Y, X);
+    babcia(Y, X),
+    X \= Y.
+
+przodek_do3pokolenia_wstecz(X, Y) :-
+    (rodzic(Z, X), przodek_do2pokolenia_wstecz(Z, Y)),
+    X \= Y.
