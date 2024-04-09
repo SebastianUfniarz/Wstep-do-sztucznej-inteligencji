@@ -8,5 +8,3 @@ E. X, Y są rodzeństwem przyrodnim  <br />
 F. Y jest szwagrem/bratową X  <br />	
 G. X jest rodzenstwem Y (i w sumie to też wujkiem/ciocia Y'a)
 
-# ZADANIE 2.
-...
